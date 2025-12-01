@@ -4071,9 +4071,9 @@ const partOne = () => {
 
 
 // Result
-const t1 = performance.now();
+console.time("Part One");
 console.log('Part One', partOne())
-console.log(`Tiempo: ${performance.now() - t1} ms`);
+console.timeEnd("Part One");
 
 
 // ------------------------------------------------
@@ -4103,6 +4103,6 @@ const partTwo = () => {
 }
 
 // Result
-const t2 = performance.now();
+console.time("Part Two");
 console.log('Part Two', partTwo())
-console.log(`Tiempo: ${performance.now() - t2} ms`);
+console.timeEnd("Part Two");
