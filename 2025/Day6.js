@@ -24,7 +24,6 @@ const OPERATIONS = {
 
 
 const partOne = () => {
-
     const transpose = getTransposeMatrix(input)
 
     return transpose.reduce((acc, curr) => {
